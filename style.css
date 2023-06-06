@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Smythe", cursive;
+  font-weight: 400;
+}
+nav {
+  background-image: url(./Assets/Images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+nav h2 {
+  font-size: 60px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+  padding-top: 120px;
+  padding-left: 100px;
+}
+nav p {
+  font-size: 30px;
+  line-height: 14px;
+  color: white;
+  padding-left: 100px;
+}
+.hero {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 10fr 1fr;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.icon img {
+  border: 1px solid #8b8b8b;
+  border-radius: 50%;
+  padding: 10px;
+  margin-top: 15px;
+}
+.text1 h2 {
+  font-size: 28px;
+  line-height: 17px;
+  margin-bottom: 10px;
+}
+.text1 p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #8b8b8b;
+  margin-bottom: 10px;
+}
+.text1 h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+hr {
+  width: 88%;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.image-hero {
+  margin-bottom: 50px;
+}
+/* .order{
+    display: none;
+} */
+.order{
+    display: none;
+
+}
+.order h1 {
+  text-align: center;
+}
+.order-h3 {
+  font-size: 28px;
+  line-height: 17px;
+}
+.order-hero,.order-hero1 {
+  color: black;
+  display: grid;
+  grid-template-columns: 1fr 15fr 1.5fr;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.order-icon h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+.order-hero{
+    margin-bottom: -10px;
+}
+.price h3{
+    font-size: 28px;
+  line-height: 17px; 
+}
+.total{
+    margin-left: 100px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:92% 5%;
+  
+}
+.amount h4{
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.order-price{
+    border: 1.5px solid black;
+}
+.complete-order h1{
+    color: white;
+    background-color:#16DB99;
+    width: 100%;
+}
